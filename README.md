@@ -5,7 +5,7 @@
 
 ![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
 
-![Banner Logo](https://cdn.modrinth.com/data/MrR8fKPi/images/bcdb4d4ec3756551118e01224bc99da5f230fdab.png)
+![Banner Logo](https://cdn.modrinth.com/data/5WB5vvtt/images/35551de205d79fe92272a95c2af1123590fce1fa.png)
 ---
 
 ## Main Features
