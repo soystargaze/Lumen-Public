@@ -109,7 +109,7 @@ If you encounter any issues or have questions, feel free to reach out. 😊
 </details>
 
 # Lumen
-**Lumen** es un plugin de Minecraft diseñado para añadir sistemas de iluminación personalizados mediante comandos y mediante ítems, protección anti-mobs de la forma más eficiente posible.
+**Lumen** es un sistema de iluminación personalizada y protección anti-mobs mediante comandos e ítems.
 
 ![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
 
