@@ -1,7 +1,7 @@
 <details><summary>English</summary>
 
 # Lumen
-**Lumen** is a Minecraft plugin focused on improving QoL by optimizing world lighting. It allows administrators to efficiently illuminate areas using commands and introduces unique craftable items: the **Lumen Torch**, which lights up the surroundings, and the **Lumen Guard**, which prevents hostile mobs from spawning.
+**Lumen** is a Minecraft plugin focused on improving QoL by optimizing world lighting. It allows to efficiently illuminate areas using commands and introduces unique craftable items: the **Lumen Torch**, which lights up the surroundings, and the **Lumen Guard**, which prevents hostile mobs from spawning.
 
 ![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
 
@@ -109,7 +109,7 @@ If you encounter any issues or have questions, feel free to reach out. 😊
 </details>
 
 # Lumen
-**Lumen** es un plugin de Minecraft enfocado en mejorar la QoL al optimizar la iluminación en los mundos. Permite a los administradores iluminar áreas de manera eficiente con comandos y ofrece ítems crafteables únicos: la **Lumen Torch**, que ilumina el entorno, y la **Lumen Guard**, que bloquea el spawn de mobs hostiles.
+**Lumen** es un plugin de Minecraft enfocado en mejorar la QoL al optimizar la iluminación en los mundos. Permite iluminar áreas de manera eficiente con comandos y ofrece ítems crafteables únicos: la **Lumen Torch**, que ilumina el entorno, y la **Lumen Guard**, que bloquea el spawn de mobs hostiles.
 
 ![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
 
