@@ -109,7 +109,7 @@ If you encounter any issues or have questions, feel free to reach out. 😊
 </details>
 
 # Lumen
-**Lumen** es un plugin de Minecraft enfocado en mejorar la QoL optimizando la iluminación de los mundos. Permite iluminar áreas con comandos y ofrece además ítems fabricables: la **Lumen Torch**, que ilumina su entorno, y la **Lumen Torch Anti-Mob**, que bloquea mobs hostiles.
+**Lumen** es un plugin de Minecraft enfocado en mejorar la QoL optimizando la iluminación de los mundos. Permite iluminar áreas con comandos y también incorpora ítems fabricables: la **Lumen Torch**, que ilumina su entorno, y la **Lumen Torch Anti-Mob**, que bloquea mobs hostiles.
 
 ![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
 
