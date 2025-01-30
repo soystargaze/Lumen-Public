@@ -17,7 +17,9 @@
 - **Sistema de Iluminación Personalizada**:
     - Coloca bloques de luz dinámicamente con `/lumen light <range> <light_level> <include_skylight>` para configurar tamaño, intensidad y luz natural.
 - **Antorchas Anti-Mobs**:
-    - Protege áreas contra mobs hostiles con la `Lumen Torch Anti-mob`.
+    - Protege áreas contra mobs hostiles con la `Lumen Torch Guard`.
+- **Antorcha auto-iluminadora**:
+    - La `Lumen Torch` ilumina automáticamente áreas al ser colocada.
 - **Gestión de Comandos**:
     - `/lumen undo <operation_id>`: Deshaz colocaciones de luz por ID o usando `last`.
     - `/lumen redo <operation_id>`: Rehaz luces eliminadas previamente usando un ID de operación.
@@ -33,6 +35,21 @@
 
 ---
 
+### **Comandos y Permisos**
+
+<details><summary>Comandos</summary>
+
+- `/lumen light <range> <light_level> <include_skylight>`: Coloca luces dinámicamente.
+- `/lumen undo <operation_id>`: Deshaz colocaciones previas de luz.
+- `/lumen redo <operation_id>`: Rehaz luces eliminadas.
+- `/lumen remove area <range>`: Elimina luces en un rango específico.
+- `/lumen clear confirm`: Elimina todas las luces registradas.
+- `/lumen give <player> <torch_type> <quantity>`: Proporciona antorchas a jugadores.
+- `/lumen reload`: Recarga la configuración y traducciones del plugin.
+- `/lumen lang <language>`: Cambia el idioma del plugin.
+- 
+</details>
+
 <details><summary>Permisos</summary>
 
 - **`lumen.light`**: Requerido para usar `/lumen light`.
@@ -43,7 +60,10 @@
 - **`lumen.clear`**: Requerido para eliminar todas las luces.
 - **`lumen.give`**: Requerido para dar antorchas `Lumen Torch` y `Lumen Torch Anti-mob`.
 - **`lumen.reload`**: Requerido para recargar la configuración y traducciones del plugin.
-
+- **`lumen.lang`**: Requerido para cambiar el idioma del plugin.
+- **`lumen.craft.torch`**: Requerido para craftear la `Lumen Torch`.
+- **`lumen.craft.guard`**: Requerido para craftear la `Lumen Guard`.
+- 
 </details>
 
 ---
@@ -66,7 +86,7 @@
 
 ### **Jugadores**
 - Usa antorchas para iluminar áreas o proteger de mobs.
-- **Recetas de crafteo**: Tanto la `Lumen Torch` como la `Lumen Torch Anti-mob` tienen recetas únicas accesibles para los jugadores.
+- **Recetas de crafteo**: Tanto la `Lumen Torch` como la `Lumen Guard` tienen recetas únicas accesibles para los jugadores.
 
 ### **Administradores**
 - Maneja iluminación dinámicamente con comandos:
@@ -77,26 +97,6 @@
     - `/lumen clear confirm`: Elimina todas las luces registradas.
     - `/lumen give <player> <torch_type> <quantity>`: Proporciona antorchas a jugadores.
 - Añade nuevas traducciones colocando archivos en la carpeta `Translations` y especificándolos en `config.yml`.
-
----
-
-## Clases Clave
-
-### **Core**
-- `Lumen`: Clase principal del plugin.
-- `LumenCommandManager`: Gestiona el registro de comandos.
-- `TranslationHandler`: Maneja el soporte multilingüe.
-
-### **Iluminación**
-- `LightHandler`: Colocación optimizada de luces con procesamiento en lotes.
-- `ItemLightsHandler`: Gestiona luces asociadas a operaciones.
-
-### **Ítems**
-- `LumenItems`: Maneja la creación y distribución de ítems personalizados.
-
-### **Eventos**
-- `TorchListener`: Gestiona interacciones con la `Lumen Torch`.
-- `MobListener`: Maneja los efectos de la `Lumen Torch Anti-mob`.
 
 ---
 
