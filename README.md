@@ -119,8 +119,7 @@ These integrations are optional but recommended for better control and efficienc
 
 ## Support
 
-If you have any questions or encounter issues, feel free to contact us.
-Join us on [Discord](https://erosmari.com/discord)
+If you have any questions or encounter issues, feel free to contact us on [Discord](https://erosmari.com/discord)
 
 </details>
 
@@ -243,5 +242,4 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 
 ## Soporte
 
-Si tienes dudas o encuentras algún problema, contáctanos.
-Únete a nosotros en [Discord](https://erosmari.com/discord)
+Si tienes dudas o encuentras algún problema, contáctanos por [Discord](https://erosmari.com/discord)
