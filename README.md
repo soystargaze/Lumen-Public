@@ -44,6 +44,8 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 3. Ajusta `config.yml` según tus necesidades.
 4. Usa `/lumen reload` para aplicar los cambios.
 
+(Las antorchas `Lumen Torch` y `Lumen Guard` colocadas antes de aplicar la configuración no se verán afectadas. Para que adopten los nuevos ajustes, deben retirarse y volver a colocarse.)
+
 ---
 
 ## Comandos y Permisos
