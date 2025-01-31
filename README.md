@@ -16,6 +16,7 @@
 ## Features
 
 - **Paper Compatibility** – Full integration with the Paper API.
+- **Multiple command aliases** – Use `/lumen`, `/lu`, and `/l` for convenience.
 - **Customizable Lighting** – Use `/lumen light <range> <light_level> <include_skylight>` to adjust size, intensity, and natural light inclusion.
 - **Mob Protection** – Prevents hostile mob spawning with the `Lumen Guard`.
 - **Auto-Lighting Torch** – The `Lumen Torch` automatically lights up when placed.
@@ -54,6 +55,8 @@ These integrations are optional but recommended for better control and efficienc
 
 <details>
 <summary>Commands</summary>
+
+Lumen also provides a variety of aliases for each command `/lumen`, `/lu`, and `/l`.
 
 - `/lumen light <range> <light_level> <include_skylight>` – Places lights dynamically.
 - `/lumen undo <operation_id>` – Undoes previous light placements.
@@ -139,6 +142,7 @@ If you have any questions or encounter issues, feel free to contact us on [Disco
 ## Características
 
 - **Compatibilidad con Paper** – Integración completa con la API de Paper.
+- **Múltiples Alias de Comandos** – Usa `/lumen`, `/lu`, y `/l` para mayor comodidad.
 - **Iluminación Personalizada** – Usa `/lumen light <range> <light_level> <include_skylight>` para personalizar el tamaño, intensidad y luz natural.
 - **Protección contra Mobs** – Evita el spawn de mobs hostiles con la `Lumen Guard`.
 - **Antorcha Auto-Iluminadora** – La `Lumen Torch` ilumina automáticamente al colocarse.
@@ -177,6 +181,8 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 
 <details>
 <summary>Comandos</summary>
+
+Luemen también ofrece una variedad de alias para cada comando `/lumen`, `/lu`, y `/l`.
 
 - `/lumen light <range> <light_level> <include_skylight>` – Coloca luces dinámicamente.
 - `/lumen undo <operation_id>` – Deshace colocaciones previas de luz.
