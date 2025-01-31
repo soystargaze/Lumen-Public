@@ -1,3 +1,129 @@
+<details><summary>English</summary>
+
+# Lumen – Advanced Lighting for Minecraft
+
+**Lumen** is a **Minecraft** plugin designed to enhance server quality of life by optimizing lighting. It allows efficient area illumination using commands and offers unique items:
+
+- **Lumen Torch** – Automatically lights up the surroundings.
+- **Lumen Guard** – Prevents hostile mobs from spawning.
+
+![Discord](https://img.shields.io/discord/1079917552588816484?label=Discord&logo=discord&logoColor=white&color=31FFA3&style=for-the-badge) ![](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20stargaze-31FFA3?style=for-the-badge)
+
+![Banner Logo](https://cdn.modrinth.com/data/5WB5vvtt/images/35551de205d79fe92272a95c2af1123590fce1fa.png)
+
+---
+
+## Features
+
+- **Paper Compatibility** – Full integration with the Paper API.
+- **Customizable Lighting** – Use `/lumen light <range> <light_level> <include_skylight>` to adjust size, intensity, and natural light inclusion.
+- **Mob Protection** – Prevents hostile mob spawning with the `Lumen Guard`.
+- **Auto-Lighting Torch** – The `Lumen Torch` automatically lights up when placed.
+- **Multilingual Support** – Available translations: `es_es.yml`, `en_en.yml`, `fr_fr.yml`, `de_de.yml`, `it_it.yml`, `pt_br.yml`. Custom languages can be added.
+
+---
+
+## Compatible Integrations
+
+Lumen can leverage other tools to enhance performance and functionality:
+
+- **CoreProtect** – Logs light placements and removals, allowing rollbacks and audits.
+- **FastAsyncWorldEdit (FAWE)** – Optimizes light block placement through commands and the Lumen Torch, improving server performance.
+
+These integrations are optional but recommended for better control and efficiency.
+
+---
+
+## Installation
+
+### Requirements
+- **Minecraft 1.21+**
+- **Paper-based server**
+
+### Steps
+1. Download `Lumen.jar` and place it in the `plugins` folder.
+2. Start the server to generate the configuration files.
+3. Adjust `config.yml` to your preferences.
+4. Use `/lumen reload` to apply the changes.
+
+(**Only newly placed** `Lumen Torch` and `Lumen Guard` **will have effects. Previously placed torches will not be affected unless removed and placed again.**)
+
+---
+
+## Commands & Permissions
+
+<details>
+<summary>Commands</summary>
+
+- `/lumen light <range> <light_level> <include_skylight>` – Places lights dynamically.
+- `/lumen undo <operation_id>` – Undoes previous light placements.
+- `/lumen redo <operation_id>` – Redoes removed lights.
+- `/lumen remove area <range>` – Removes lights in a specified area.
+- `/lumen clear confirm` – Clears all registered lights.
+- `/lumen give <player/all> <torch_type> <quantity>` – Gives torches to players.
+- `/lumen reload` – Reloads configuration and translations.
+- `/lumen lang <language>` – Changes the plugin language.
+
+</details>
+
+<details>
+<summary>Permissions</summary>
+
+- `lumen.light` – Permission to use `/lumen light`.
+- `lumen.cancel` – Permission to cancel active tasks.
+- `lumen.undo` – Permission to undo placements.
+- `lumen.redo` – Permission to redo removed lights.
+- `lumen.remove` – Permission to remove lights.
+- `lumen.clear` – Permission to clear all lights.
+- `lumen.give` – Permission to give `Lumen Torch` and `Lumen Guard`.
+- `lumen.reload` – Permission to reload configuration and translations.
+- `lumen.lang` – Permission to change the language.
+- `lumen.craft.torch` – Permission to craft the `Lumen Torch`.
+- `lumen.craft.guard` – Permission to craft the `Lumen Guard`.
+
+</details>
+
+---
+
+## Usage
+
+### For Players
+- The `Lumen Torch` automatically lights up nearby areas.
+- The `Lumen Guard` prevents mob spawning within its range.
+- Torches can be removed without being lost, and their effects disappear when removed.
+- To craft them, you need `lumen.craft.torch` and `lumen.craft.guard` permissions.
+
+**Crafting Recipes**
+<details>
+<summary>Lumen Torch</summary>
+
+![Lumen Torch Recipe](https://cdn.modrinth.com/data/5WB5vvtt/images/3cf389c35844ac90b2f07e8f7194913937712305.png)
+
+</details>
+<details>
+<summary>Lumen Guard</summary>
+
+![Lumen Guard Recipe](https://cdn.modrinth.com/data/5WB5vvtt/images/64419e0fbf155c4c1aad408f77c3083b2764da6a.png)
+
+</details>
+
+---
+
+### For Administrators
+- Advanced light management using commands.
+- Safe light removal with `/lumen remove` and `/lumen clear confirm`.
+- Item distribution using `/lumen give`.
+- Full customization through `config.yml` and translation files in `Translations/`.
+
+---
+
+## Support
+
+If you have any questions or encounter issues, feel free to contact us.
+Join us on [Discord](https://erosmari.com/discord)
+
+</details>
+
 # Lumen – Iluminación Avanzada para Minecraft
 
 **Lumen** es un plugin para **Minecraft** diseñado para mejorar la calidad de vida en los servidores al optimizar la iluminación. Permite iluminar áreas de manera eficiente mediante comandos y ofrece ítems únicos:
@@ -117,4 +243,5 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 
 ## Soporte
 
-Si tienes dudas o encuentras algún problema, contáctanos.  
+Si tienes dudas o encuentras algún problema, contáctanos.
+Únete a nosotros en [Discord](https://erosmari.com/discord)
