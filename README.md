@@ -59,8 +59,8 @@ These integrations are optional but recommended for better control and efficienc
 Lumen also provides a variety of aliases for each command `/lumen`, `/lu`, and `/l`.
 
 - `/lumen light <range> <light_level> <include_skylight>` – Places lights dynamically.
-- `/lumen undo <operation_id>` – Undoes previous light placements.
-- `/lumen redo <operation_id>` – Redoes removed lights.
+- `/lumen undo` – Undoes previous light placements.
+- `/lumen redo` – Redoes removed lights.
 - `/lumen remove area <range>` – Removes lights in a specified area.
 - `/lumen clear confirm` – Clears all registered lights.
 - `/lumen give <player/all> <torch_type> <quantity>` – Gives torches to players.
@@ -185,8 +185,8 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 Luemen también ofrece una variedad de alias para cada comando `/lumen`, `/lu`, y `/l`.
 
 - `/lumen light <range> <light_level> <include_skylight>` – Coloca luces dinámicamente.
-- `/lumen undo <operation_id>` – Deshace colocaciones previas de luz.
-- `/lumen redo <operation_id>` – Rehace luces eliminadas.
+- `/lumen undo` – Deshace colocaciones previas de luz.
+- `/lumen redo` – Rehace luces eliminadas.
 - `/lumen remove area <range>` – Elimina luces en un área específica.
 - `/lumen clear confirm` – Elimina todas las luces registradas.
 - `/lumen give <player/all> <torch_type> <quantity>` – Da antorchas a jugadores.
