@@ -37,7 +37,7 @@ These integrations are optional but recommended for better control and efficienc
 
 ## Installation Guide
 
-<details><summary>Installation></summary$
+<details><summary>Installation></summary>
     
 ## **Prerequisites**  
 Before installing Lumen, make sure your server meets the following requirements:
