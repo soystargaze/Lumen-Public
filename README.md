@@ -53,7 +53,7 @@ Before installing Lumen, make sure your server meets the following requirements:
 ---
 
 ## **Step 1: Download the Plugin**  
-Download the latest version of Lumen from [Polymart](https://polymart.org) and ensure you obtain a valid `.jar` file.  
+Download the latest version of Lumen from [Polymart](https://polymart.org/resource/lumen-ultimate-lightning.7155) and ensure you obtain a valid `.jar` file.  
 
 ---
 
@@ -228,7 +228,7 @@ Antes de instalar Lumen, asegúrate de que tu servidor cumple con los siguientes
 ---
 
 ## **Paso 1: Descargar el Plugin**  
-Descarga la última versión de Lumen desde [Polymart](https://polymart.org) y asegúrate de obtener un archivo `.jar` válido.  
+Descarga la última versión de Lumen desde [Polymart](https://polymart.org/resource/lumen-ultimate-lightning.7155) y asegúrate de obtener un archivo `.jar` válido.  
 
 ---
 
