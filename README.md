@@ -35,19 +35,68 @@ These integrations are optional but recommended for better control and efficienc
 
 ---
 
-## Installation
+## Installation Guide
 
-### Requirements
-- **Minecraft 1.21+**
-- **Paper-based server**
+<details><summary>Installation></summary$
+    
+## **Prerequisites**  
+Before installing Lumen, make sure your server meets the following requirements:
 
-### Steps
-1. Download `Lumen.jar` and place it in the `plugins` folder.
-2. Start the server to generate the configuration files.
-3. Adjust `config.yml` to your preferences.
-4. Use `/lumen reload` to apply the changes.
+- **Minecraft Server:** PaperMC **1.21 or higher** (recommended **1.21.4**, the latest stable version).  
+- **Java:** Version **21 or higher**.  
+- **Write permissions:** The server must have permission to write in its plugins directory.  
+- **Internet connection:** Required to verify the license via the Polymart API.  
+- **Optional Dependencies:**  
+  - **CoreProtect (Optional):** Enables tracking and rollback of placed or removed lights. Integration can be verified in the console upon server startup.  
+  - **FastAsyncWorldEdit (Optional):** Optimizes performance for placing and removing large amounts of lights.  
 
-(**Only newly placed** `Lumen Torch` and `Lumen Guard` **will have effects. Previously placed torches will not be affected unless removed and placed again.**)
+---
+
+## **Step 1: Download the Plugin**  
+Download the latest version of Lumen from [Polymart](https://polymart.org) and ensure you obtain a valid `.jar` file.  
+
+---
+
+## **Step 2: Installation**  
+1. **Upload the file** `Lumen.jar` to the `plugins/` folder of your PaperMC server.  
+2. **Restart the server** to automatically generate the configuration files.  
+3. **Verify installation** by checking the console. If the installation was successful, you will see a message indicating that the plugin has been loaded correctly.  
+
+---
+
+## **Step 3: Initial Configuration**  
+1. **Navigate to the configuration folder:** `plugins/Lumen/`  
+2. **Edit `config.yml`** to adjust performance settings, such as:  
+   - `command_lights_per_tick`: Number of lights added per tick when using commands.  
+   - `torch_lights_per_tick`: Number of lights added per tick when using torches.  
+   - `torch_tick_interval`: Interval between torch ticks.  
+   - `mob_torch_radius`: Protection radius of the anti-mob torch.  
+3. **If using CoreProtect,** check the server console on startup. If integration is successful, you will see a message indicating that CoreProtect has been detected and is active in Lumen.  
+4. **If using FastAsyncWorldEdit,** ensure it is installed and properly configured to optimize the placement and removal of lights.  
+
+---
+
+## **Step 4: License Verification**  
+Lumen requires an internet connection to verify the purchase via the Polymart API. **If your server does not have internet access, the plugin will not work.**  
+To avoid issues:  
+- Ensure the server can make outgoing HTTP requests.  
+- Do not block connections to `api.polymart.org` in your firewall.  
+
+---
+
+## **Step 5: Troubleshooting**  
+- **The plugin does not load:** It is recommended to use **PaperMC 1.21.4**, the latest stable version. Also, ensure you are using Java 21 or higher.  
+- **License verification failed:** Confirm that the server has internet access and check the console for error messages.  
+- **CoreProtect errors:** Check the console when starting the server. If integration does not activate, ensure CoreProtect is correctly installed.  
+- **Low performance when placing lights:** Adjust values in `config.yml` and/or install **FastAsyncWorldEdit** to optimize large-scale block processing.  
+- Only newly placed `Lumen Torch` and `Lumen Guard` will have effects of changes in config.yml. Previously placed torches will not be affected unless removed and placed again.
+
+---
+
+## **Support & Contact**  
+If you encounter issues or have questions, contact support on **[Discord](https://erosmari.com/discord)** or refer to the official plugin documentation.
+
+</details>
 
 ---
 
@@ -161,19 +210,68 @@ Estas integraciones son opcionales, pero recomendadas para un mejor control y ef
 
 ---
 
-## Instalación
+## Guía de Instalación
 
-### Requisitos
-- **Minecraft 1.21+**
-- **Servidor basado en Paper**
+<details><summary>Instalación</summary>
 
-### Pasos
-1. Descarga `Lumen.jar` y colócalo en la carpeta `plugins`.
-2. Inicia el servidor para generar los archivos de configuración.
-3. Ajusta `config.yml` según tus necesidades.
-4. Usa `/lumen reload` para aplicar los cambios.
+## **Requisitos Previos**  
+Antes de instalar Lumen, asegúrate de que tu servidor cumple con los siguientes requisitos:
 
-(Las antorchas `Lumen Torch` y `Lumen Guard` colocadas antes de aplicar la configuración no se verán afectadas. Para que adopten los nuevos ajustes, deben retirarse y volver a colocarse.)
+- **Servidor Minecraft:** PaperMC **1.21 o superior** (recomendado **1.21.4**, la última versión estable).  
+- **Java:** Versión **21 o superior**.  
+- **Permisos de escritura:** El servidor debe tener permisos para escribir en su directorio de plugins.  
+- **Conexión a Internet:** Obligatoria para verificar la licencia a través de la API de Polymart.  
+- **Dependencias Opcionales:**  
+  - **CoreProtect (Opcional):** Permite rastrear y restaurar luces colocadas o eliminadas. La integración puede verificarse en la consola al iniciar el servidor.  
+  - **FastAsyncWorldEdit (Opcional):** Optimiza el rendimiento en la colocación y eliminación de grandes cantidades de luces.  
+
+---
+
+## **Paso 1: Descargar el Plugin**  
+Descarga la última versión de Lumen desde [Polymart](https://polymart.org) y asegúrate de obtener un archivo `.jar` válido.  
+
+---
+
+## **Paso 2: Instalación**  
+1. **Sube el archivo** `Lumen.jar` a la carpeta `plugins/` de tu servidor PaperMC.  
+2. **Reinicia el servidor** para generar automáticamente los archivos de configuración.  
+3. **Verifica la instalación** revisando la consola. Si la instalación fue exitosa, verás un mensaje indicando que el plugin se ha cargado correctamente.  
+
+---
+
+## **Paso 3: Configuración Inicial**  
+1. **Accede a la carpeta de configuración:** `plugins/Lumen/`  
+2. **Edita `config.yml`** para ajustar los parámetros de rendimiento, como:  
+   - `command_lights_per_tick`: Cantidad de luces añadidas por tick al usar comandos.  
+   - `torch_lights_per_tick`: Cantidad de luces añadidas por tick al usar antorchas.  
+   - `torch_tick_interval`: Intervalo entre ticks de las antorchas.  
+   - `mob_torch_radius`: Radio de protección de la antorcha anti-mobs.  
+3. **Si usas CoreProtect,** revisa la consola del servidor al iniciar. Si la integración es exitosa, verás un mensaje indicando que CoreProtect ha sido detectado y está activo en Lumen.  
+4. **Si usas FastAsyncWorldEdit,** asegúrate de que está instalado y configurado correctamente para optimizar la colocación y eliminación de luces.  
+
+---
+
+## **Paso 4: Verificación de Licencia**  
+Lumen requiere una conexión a Internet para verificar la compra a través de la API de Polymart. **Si tu servidor no tiene acceso a Internet, el plugin no funcionará.**  
+Para evitar problemas:  
+- Asegúrate de que el servidor puede realizar peticiones HTTP salientes.  
+- No bloquees conexiones a `api.polymart.org` en tu firewall.  
+
+---
+
+## **Paso 5: Solución de Problemas**  
+- **El plugin no se carga:** Se recomienda usar **PaperMC 1.21.4**, la última versión estable. Asegúrate también de estar utilizando Java 21 o superior.  
+- **No se puede verificar la licencia:** Confirma que el servidor tiene acceso a Internet y revisa la consola para mensajes de error.  
+- **Errores con CoreProtect:** Revisa la consola al iniciar el servidor. Si la integración no se activa, asegúrate de que CoreProtect está correctamente instalado.  
+- **Bajo rendimiento al colocar luces:** Ajusta los valores en `config.yml` y/o instala **FastAsyncWorldEdit** para optimizar el procesamiento de grandes cantidades de bloques.  
+- Solo las **nuevas** `Lumen Torch` y `Lumen Guard` colocadas tendrán efecto con los cambios realizados en `config.yml`. Las antorchas previamente colocadas no se verán afectadas a menos que se eliminen y se vuelvan a colocar.  
+
+---
+
+## **Soporte y Contacto**  
+Si tienes problemas o dudas, contacta con el soporte en **[Discord](https://erosmari.com/discord)** o consulta la documentación oficial del plugin.
+
+</details>
 
 ---
 
